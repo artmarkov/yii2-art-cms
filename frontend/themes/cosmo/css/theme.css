@@ -5083,9 +5083,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 2px;
 }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-pills > li.mm-active > a,
+.nav-pills > li.mm-active > a:hover,
+.nav-pills > li.mm-active > a:focus {
     color: #ffffff;
     background-color: #2780e3;
 }

@@ -34,7 +34,7 @@ $page = (isset($page)) ? $page : 'post';
         </div>
     </div>
 
-    <span class="pull-right"><?= Yii::t('art', 'Published') ?> by <b><?= $post->author->username ?></b> on <b><?= $post->publishedDate ?></b></span>
+    <span class="pull-right"><?= Yii::t('art', 'Published') ?>: <b><?= $post->author->username ?></b>  <b><?= $post->publishedDate ?></b></span>
 
 </div>
 
