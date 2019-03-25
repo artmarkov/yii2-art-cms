@@ -59,5 +59,63 @@
       "npm-asset-library": "vendor/npm",
       "bower-asset-library": "vendor/bower"
     }
-  } 
+  },
+  "repositories": [
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-seo"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-settings"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-translation"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-menu"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-comments"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-comment"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-auth"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-user"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-post"
+        },        
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-page"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-media"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-core"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/yii2-art-generator"
+        },
+        {
+            "type": "path",
+            "url": "../artsoft/art-i18n"
+        }
+]
 }
