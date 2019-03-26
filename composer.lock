@@ -174,7 +174,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "0574075cd48797f8184f6e333e902ab656adb4dd"
+                "reference": "6c1eeef4d48f7bc0b27a441a2ce4ac50cd862c89"
             },
             "type": "library",
             "autoload": {
@@ -270,11 +270,12 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "ffe822323549d228ac833b392cbb9cd3df870265"
+                "reference": "c608b83b6a0930f4f9babcccddffb5d50a0b41af"
             },
             "require": {
                 "2amigos/yii2-transliterator-helper": "*",
                 "bower-asset/metismenu": "*",
+                "himiklab/yii2-sortable-grid-view-widget": "*",
                 "ikimea/browser": "~1.14",
                 "kartik-v/yii2-field-range": "dev-master",
                 "kartik-v/yii2-widget-datepicker": "@dev",
@@ -441,13 +442,11 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-post",
-                "reference": "f09b46b2de04b152361b3f20912426ca48d96c74"
+                "reference": "5d53a79ee74148b827294134abea89bd5c7e5c0a"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
-                "artsoft/yii2-art-media": "dev-master",
-                "creocoder/yii2-nested-sets": "^0.9.0",
-                "klisl/yii2-nested-sets-drag-and-drop": "^1.3"
+                "artsoft/yii2-art-media": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -1185,46 +1184,6 @@
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
-            "name": "creocoder/yii2-nested-sets",
-            "version": "0.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/creocoder/yii2-nested-sets.git",
-                "reference": "cb8635a459b6246e5a144f096b992dcc30cf9954"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/creocoder/yii2-nested-sets/zipball/cb8635a459b6246e5a144f096b992dcc30cf9954",
-                "reference": "cb8635a459b6246e5a144f096b992dcc30cf9954",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "creocoder\\nestedsets\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Alexander Kochetov",
-                    "email": "creocoder@gmail.com"
-                }
-            ],
-            "description": "The nested sets behavior for the Yii framework",
-            "keywords": [
-                "nested sets",
-                "yii2"
-            ],
-            "time": "2015-01-27T10:53:51+00:00"
-        },
-        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.10.0",
             "source": {
@@ -1318,6 +1277,50 @@
                 "icon"
             ],
             "time": "2016-10-24T15:52:54+00:00"
+        },
+        {
+            "name": "himiklab/yii2-sortable-grid-view-widget",
+            "version": "1.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/himiklab/yii2-sortable-grid-view-widget.git",
+                "reference": "4e3f419da917db8a7d61a00c963b799593c66e31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/himiklab/yii2-sortable-grid-view-widget/zipball/4e3f419da917db8a7d61a00c963b799593c66e31",
+                "reference": "4e3f419da917db8a7d61a00c963b799593c66e31",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-jui": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "himiklab\\sortablegrid\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HimikLab",
+                    "homepage": "https://github.com/himiklab"
+                }
+            ],
+            "description": "Sortable modification of standard Yii2 GridView widget",
+            "keywords": [
+                "grid",
+                "gridview",
+                "sortable",
+                "widget",
+                "yii2"
+            ],
+            "time": "2018-02-27T13:58:01+00:00"
         },
         {
             "name": "ikimea/browser",
@@ -1745,43 +1748,6 @@
                 "yii2"
             ],
             "time": "2018-10-09T11:39:13+00:00"
-        },
-        {
-            "name": "klisl/yii2-nested-sets-drag-and-drop",
-            "version": "1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/klisl/yii2-nested-sets-drag-and-drop.git",
-                "reference": "ca9706b519506184ec9603c62eb5232a2786d046"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klisl/yii2-nested-sets-drag-and-drop/zipball/ca9706b519506184ec9603c62eb5232a2786d046",
-                "reference": "ca9706b519506184ec9603c62eb5232a2786d046",
-                "shasum": ""
-            },
-            "require": {
-                "creocoder/yii2-nested-sets": "*",
-                "kartik-v/yii2-krajee-base": "*",
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "klisl\\nestable\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Package",
-            "keywords": [
-                "drag-and-drop",
-                "nested-sets",
-                "yii2"
-            ],
-            "time": "2018-04-03T13:24:34+00:00"
         },
         {
             "name": "nex/yii2-chosen",
