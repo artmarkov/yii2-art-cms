@@ -174,7 +174,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "6c1eeef4d48f7bc0b27a441a2ce4ac50cd862c89"
+                "reference": "ef43106575c66282fe2867d4d66c22f6f1be6cc0"
             },
             "type": "library",
             "autoload": {
@@ -237,7 +237,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-comment",
-                "reference": "a3f8960e0ef1db581baa794e130b01b36f3c17c7"
+                "reference": "7a12bfabb6b7d7917ce27f7ff72b7ac3613eefb4"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -270,10 +270,11 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "78cea8a56f6d8d67a5b2fc3239a02e0ed918bffc"
+                "reference": "8d222058d4d0f7daa3afb6b1930b2a25b28ffb51"
             },
             "require": {
                 "2amigos/yii2-transliterator-helper": "*",
+                "artsoft/yii2-date-range-picker": "*",
                 "bower-asset/metismenu": "*",
                 "himiklab/yii2-sortable-grid-view-widget": "*",
                 "ikimea/browser": "~1.14",
@@ -342,7 +343,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-media",
-                "reference": "211398d299f1851283b48805e17515124599602b"
+                "reference": "c9c4672ce0fe5e28b9537be33c40ebd28fde4805"
             },
             "require": {
                 "2amigos/yii2-file-upload-widget": "~1.0.6",
@@ -442,7 +443,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-post",
-                "reference": "b916392dd4a34b860689736931639fa03b70338d"
+                "reference": "b3b26f6206788253d7a1ca972baa45ee4e0b6fbd"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -571,13 +572,12 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "6935925171947257f43d6f3a2db96b1869a602ec"
+                "reference": "4376690be8502025edaee5d20b5ab781e1b78da6"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
                 "artsoft/yii2-art-core": "dev-master",
-                "ikimea/browser": "~1.14",
-                "webvimark/date-range-picker": "~1.0.2"
+                "ikimea/browser": "~1.14"
             },
             "type": "library",
             "autoload": {
@@ -606,7 +606,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-comments",
-                "reference": "d2fd9e1876f1febab574fe1ec1e734290ced278c"
+                "reference": "d597e706714dba94623c32579938e48d3f177512"
             },
             "require": {
                 "tijsverkoyen/akismet": "^1.1",
@@ -633,6 +633,30 @@
                 }
             ],
             "description": "Comments Module For Yii2 Framework"
+        },
+        {
+            "name": "artsoft/yii2-date-range-picker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artmarkov/yii2-date-range-picker.git",
+                "reference": "a699792080af2469dfd71d5c64a3b1b9ab7510fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artmarkov/yii2-date-range-picker/zipball/a699792080af2469dfd71d5c64a3b1b9ab7510fb",
+                "reference": "a699792080af2469dfd71d5c64a3b1b9ab7510fb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "artsoft\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "dangrossman daterangepicker yii 2 gridview",
+            "time": "2019-03-29T14:19:42+00:00"
         },
         {
             "name": "bower-asset/blueimp-canvas-to-blob",
@@ -2034,30 +2058,6 @@
                 "wysiwyg"
             ],
             "time": "2018-08-03T12:00:41+00:00"
-        },
-        {
-            "name": "webvimark/date-range-picker",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webvimark/date-range-picker.git",
-                "reference": "195826787e1e516cb101a5a5720ffa42f3255210"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webvimark/date-range-picker/zipball/195826787e1e516cb101a5a5720ffa42f3255210",
-                "reference": "195826787e1e516cb101a5a5720ffa42f3255210",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "webvimark\\extensions\\DateRangePicker\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "dangrossman daterangepicker yii 2 gridview",
-            "time": "2017-02-27T19:12:56+00:00"
         },
         {
             "name": "yiidoc/yii2-timeago",
