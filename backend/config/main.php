@@ -94,20 +94,20 @@ return [
             'showScriptName' => false,
             'enablePrettyUrl' => true,
             'multilingualRules' => false,
-            'rules' => array(
+            'rules' => [
                 //add here local frontend controllers
                 //'<controller:(test)>' => '<controller>/index',
                 //'<controller:(test)>/<id:\d+>' => '<controller>/view',
-                //'<controller:(test)>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
-                //'<controller:(test)>/<action:\w+>' => '<controller>/<action>',
+                //'<controller:(test)>/<action:[\w_\-]+>/<id:\d+>' => '<controller>/<action>',
+                //'<controller:(test)>/<action:[\w_\-]+>' => '<controller>/<action>',
                 //art cms and other modules routes
-                '<module:\w+>/' => '<module>/default/index',
-                '<module:\w+>/<action:\w+>/<id:\d+>' => '<module>/default/<action>',
-                '<module:\w+>/<action:(create)>' => '<module>/default/<action>',
-                '<module:\w+>/<controller:\w+>' => '<module>/<controller>/index',
-                '<module:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>' => '<module>/<controller>/<action>',
-                '<module:\w+>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
-            )
+                '<module:[\w_\-]+>/' => '<module>/default/index',
+                '<module:[\w_\-]+>/<action:[\w_\-]+>/<id:\d+>' => '<module>/default/<action>',
+                '<module:[\w_\-]+>/<action:(create)>' => '<module>/default/<action>',
+                '<module:[\w_\-]+>/<controller:[\w_\-]+>' => '<module>/<controller>/index',
+                '<module:[\w_\-]+>/<controller:[\w_\-]+>/<action:[\w_\-]+>/<id:\d+>' => '<module>/<controller>/<action>',
+                '<module:[\w_\-]+>/<controller:[\w_\-]+>/<action:[\w_\-]+>' => '<module>/<controller>/<action>',
+            ]
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

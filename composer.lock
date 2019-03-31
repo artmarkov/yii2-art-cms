@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "8d222058d4d0f7daa3afb6b1930b2a25b28ffb51"
+                "reference": "dc28a35959e330d073cc49a61a408b534c62f753"
             },
             "require": {
                 "2amigos/yii2-transliterator-helper": "*",
@@ -572,7 +572,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "4376690be8502025edaee5d20b5ab781e1b78da6"
+                "reference": "3ff398602414ca55dcc802f5839097a331011f6d"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
