@@ -174,7 +174,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "ef43106575c66282fe2867d4d66c22f6f1be6cc0"
+                "reference": "843a6cff8973290c94de23cce093fb84cedffc3f"
             },
             "type": "library",
             "autoload": {
@@ -270,7 +270,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "dc28a35959e330d073cc49a61a408b534c62f753"
+                "reference": "cf837c944e4980e61a946b3a70286138a228e10e"
             },
             "require": {
                 "2amigos/yii2-transliterator-helper": "*",
@@ -278,12 +278,14 @@
                 "bower-asset/metismenu": "*",
                 "himiklab/yii2-sortable-grid-view-widget": "*",
                 "ikimea/browser": "~1.14",
+                "jisoft/yii2-sypexgeo": "*",
                 "kartik-v/yii2-field-range": "dev-master",
                 "kartik-v/yii2-widget-datepicker": "@dev",
                 "kartik-v/yii2-widget-datetimepicker": "*",
                 "nex/yii2-chosen": "*",
                 "omgdef/yii2-multilingual-behavior": "~2.0",
                 "rmrevin/yii2-fontawesome": "~2.12",
+                "yii2mod/yii2-bootstrap-notify": "*",
                 "yiisoft/yii2": "~2.0",
                 "yiisoft/yii2-jui": "~2.0"
             },
@@ -410,7 +412,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-page",
-                "reference": "b8ea0d9245aded03bebbe11794ac954fdbf33240"
+                "reference": "cddc8c08ce57f3555b3bf83d307f708a5318042b"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -443,7 +445,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-post",
-                "reference": "b3b26f6206788253d7a1ca972baa45ee4e0b6fbd"
+                "reference": "8c7e4a2181b62a01831a7922590ca987a831570b"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -508,7 +510,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-settings",
-                "reference": "3c71982c84af5d6186ab22f7a172292cad47c600"
+                "reference": "7e8428e61f3045e3708eaeecc3c9e79bb89f1a08"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -572,12 +574,11 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "3ff398602414ca55dcc802f5839097a331011f6d"
+                "reference": "53b2d9d983758dd53823767722d470848814e7b1"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
-                "artsoft/yii2-art-core": "dev-master",
-                "ikimea/browser": "~1.14"
+                "artsoft/yii2-art-core": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -657,6 +658,33 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "dangrossman daterangepicker yii 2 gridview",
             "time": "2019-03-29T14:19:42+00:00"
+        },
+        {
+            "name": "bower-asset/animate.css",
+            "version": "3.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daneden/animate.css.git",
+                "reference": "940e4aef81edc26d3458480adcd475e51bd38df5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daneden/animate.css/zipball/940e4aef81edc26d3458480adcd475e51bd38df5",
+                "reference": "940e4aef81edc26d3458480adcd475e51bd38df5",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./animate.css",
+                "bower-asset-ignore": [
+                    ".*",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            },
+            "time": "2018-07-23T22:44:09+00:00"
         },
         {
             "name": "bower-asset/blueimp-canvas-to-blob",
@@ -1110,6 +1138,49 @@
             "time": "2014-10-22T12:02:42+00:00"
         },
         {
+            "name": "bower-asset/remarkable-bootstrap-notify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mouse0270/bootstrap-notify.git",
+                "reference": "d52c64fe1c320a6fe382874318edd00ff714abf6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mouse0270/bootstrap-notify/zipball/d52c64fe1c320a6fe382874318edd00ff714abf6",
+                "reference": "d52c64fe1c320a6fe382874318edd00ff714abf6",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": ">=2.0.0",
+                "bower-asset/jquery": ">=1.10.2"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "bootstrap-notify.js",
+                "bower-asset-ignore": [],
+                "branch-alias": {
+                    "dev-master": "3.1.7-dev"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "This is a simple plugin that turns standard Bootstrap alerts into \"Growl-like\" notifications.",
+            "keywords": [
+                "bootstrap",
+                "growl",
+                "jquery",
+                "message",
+                "notice",
+                "notification",
+                "notifications",
+                "notify",
+                "remarkable"
+            ],
+            "time": "2018-08-07T13:17:49+00:00"
+        },
+        {
             "name": "bower-asset/yii2-pjax",
             "version": "dev-master",
             "source": {
@@ -1451,6 +1522,58 @@
                 "image processing"
             ],
             "time": "2017-05-16T10:31:22+00:00"
+        },
+        {
+            "name": "jisoft/yii2-sypexgeo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JiSoft/yii2-sypexgeo.git",
+                "reference": "faa8930cbebc183014cb653827508e9b187ed4c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JiSoft/yii2-sypexgeo/zipball/faa8930cbebc183014cb653827508e9b187ed4c1",
+                "reference": "faa8930cbebc183014cb653827508e9b187ed4c1",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "jisoft\\sypexgeo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "zapimir",
+                    "email": "zapimir@zapimir.net"
+                },
+                {
+                    "name": "BINOVATOR",
+                    "email": "info@sypex.net"
+                },
+                {
+                    "name": "jisoft",
+                    "email": "jisoft.dn@gmail.com"
+                }
+            ],
+            "description": "Yii2 extension for Sypex Geo API (http://sypexgeo.net)",
+            "homepage": "https://github.com/JiSoft/yii2-sypexgeo",
+            "keywords": [
+                "geo",
+                "geoip",
+                "geolocation",
+                "sypexgeo",
+                "yii2"
+            ],
+            "time": "2014-06-16T06:21:37+00:00"
         },
         {
             "name": "kartik-v/yii2-field-range",
@@ -2058,6 +2181,58 @@
                 "wysiwyg"
             ],
             "time": "2018-08-03T12:00:41+00:00"
+        },
+        {
+            "name": "yii2mod/yii2-bootstrap-notify",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-bootstrap-notify.git",
+                "reference": "54b25960279101531a08aa080e1e5c473f705a7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-bootstrap-notify/zipball/54b25960279101531a08aa080e1e5c473f705a7c",
+                "reference": "54b25960279101531a08aa080e1e5c473f705a7c",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/animate.css": "*",
+                "bower-asset/remarkable-bootstrap-notify": "*",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\notify\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "Alert widget based on Bootstrap Notify extension {@link http://bootstrap-notify.remabledesigns.com/)",
+            "keywords": [
+                "yii2",
+                "yii2 alert",
+                "yii2 bootstrap alert"
+            ],
+            "time": "2017-03-06T08:35:43+00:00"
         },
         {
             "name": "yiidoc/yii2-timeago",
