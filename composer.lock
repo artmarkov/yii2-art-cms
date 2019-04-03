@@ -328,7 +328,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "cf837c944e4980e61a946b3a70286138a228e10e"
+                "reference": "b760a06e6b37da3b4fd9ed729280560c51b64e28"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -336,8 +336,6 @@
                 "artsoft/yii2-date-range-picker": "*",
                 "bower-asset/metismenu": "*",
                 "himiklab/yii2-sortable-grid-view-widget": "*",
-                "ikimea/browser": "~1.14",
-                "jisoft/yii2-sypexgeo": "*",
                 "kartik-v/yii2-field-range": "dev-master",
                 "kartik-v/yii2-widget-datepicker": "@dev",
                 "kartik-v/yii2-widget-datetimepicker": "*",
@@ -637,7 +635,10 @@
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
-                "artsoft/yii2-art-core": "dev-master"
+                "artsoft/yii2-art-core": "dev-master",
+                "cjtterabytesoft/yii2-jvectormap": "*",
+                "ikimea/browser": "~1.14",
+                "jisoft/yii2-sypexgeo": "*"
             },
             "type": "library",
             "autoload": {
@@ -1368,6 +1369,59 @@
                 "markdown-extra"
             ],
             "time": "2018-03-26T11:24:36+00:00"
+        },
+        {
+            "name": "cjtterabytesoft/yii2-jvectormap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cjtterabytesoft/yii2-jvectormap.git",
+                "reference": "30d6f442010915fbcd56c0993e5ff71abdc59830"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cjtterabytesoft/yii2-jvectormap/zipball/30d6f442010915fbcd56c0993e5ff71abdc59830",
+                "reference": "30d6f442010915fbcd56c0993e5ff71abdc59830",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.15"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                },
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cjtterabytesoft\\widget\\jvectormap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Wilmer Arambula",
+                    "email": "cjtterabytellc@gmail.com"
+                }
+            ],
+            "description": "Widget Yii2: [JVectorMap]",
+            "keywords": [
+                "jquery",
+                "jvectormap",
+                "map",
+                "widgets",
+                "yii2"
+            ],
+            "time": "2018-04-23T11:59:32+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
