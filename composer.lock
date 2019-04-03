@@ -232,7 +232,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "843a6cff8973290c94de23cce093fb84cedffc3f"
+                "reference": "c950f1dd6c3b3e9bd8a233489e9c108628323244"
             },
             "type": "library",
             "autoload": {
@@ -328,7 +328,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "b760a06e6b37da3b4fd9ed729280560c51b64e28"
+                "reference": "b2b1d88fe23f6f580ed851fbed7ad935fbac1106"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -631,7 +631,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "c55684a63be93525821e3165c805b7655beeac5b"
+                "reference": "0602c99f9791a2f2d1b12039324771f428231105"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
