@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "b2b1d88fe23f6f580ed851fbed7ad935fbac1106"
+                "reference": "d87b3961031c6fa59acb1e5531f4764cdbfd7b87"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -675,7 +675,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "0602c99f9791a2f2d1b12039324771f428231105"
+                "reference": "92f56fd446cec7b897e35e18ac0d2833cf4366c7"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
