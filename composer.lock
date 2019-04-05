@@ -675,7 +675,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "92f56fd446cec7b897e35e18ac0d2833cf4366c7"
+                "reference": "a51e2a07dabe6af10a88f3ee4e44f93cc434bf26"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
