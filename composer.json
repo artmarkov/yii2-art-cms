@@ -43,9 +43,7 @@
     "artsoft/yii2-art-media": "dev-master",
     "artsoft/yii2-art-core": "dev-master",
     "artsoft/yii2-art-generator": "dev-master",
-    "artsoft/art-i18n": "dev-master",
-    "juratitov/yii2-morrisjs-widget": "dev-master",
-    "antishov/yii2-morrisjs": "^1.1"
+    "artsoft/art-i18n": "dev-master"   
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "~2.0.5",

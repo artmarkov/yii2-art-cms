@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90dcc99af3f639c4a04b7d92e9df9256",
+    "content-hash": "a8d6e09c3201cd20c9c619c3ea409495",
     "packages": [
         {
             "name": "2amigos/yii2-chartjs-widget",
@@ -276,7 +276,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "c950f1dd6c3b3e9bd8a233489e9c108628323244"
+                "reference": "e9a99a51fb5f511e6d6ad32e0339829b7bea1575"
             },
             "type": "library",
             "autoload": {
@@ -339,7 +339,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-comment",
-                "reference": "7a12bfabb6b7d7917ce27f7ff72b7ac3613eefb4"
+                "reference": "9cfd4886be530ba9e3218dafdb83d43b0e271f54"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -372,11 +372,12 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "d87b3961031c6fa59acb1e5531f4764cdbfd7b87"
+                "reference": "80b009ec58abafe04de9bf7e935a6aa880931a52"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
                 "2amigos/yii2-transliterator-helper": "*",
+                "antishov/yii2-morrisjs": "^1.1",
                 "artsoft/yii2-date-range-picker": "*",
                 "bower-asset/metismenu": "*",
                 "himiklab/yii2-sortable-grid-view-widget": "*",
@@ -446,7 +447,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-media",
-                "reference": "c9c4672ce0fe5e28b9537be33c40ebd28fde4805"
+                "reference": "7bd01f8d6f6ba15aaace69113c607dcf20d64406"
             },
             "require": {
                 "2amigos/yii2-file-upload-widget": "~1.0.6",
@@ -546,7 +547,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-post",
-                "reference": "8c7e4a2181b62a01831a7922590ca987a831570b"
+                "reference": "b7f5767be1c6c28a7040dc38c57202facc975f73"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -611,7 +612,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-settings",
-                "reference": "7e8428e61f3045e3708eaeecc3c9e79bb89f1a08"
+                "reference": "a7c3b15bdabbf24bb8f7e5166a09d6317c10adf6"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -643,7 +644,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-translation",
-                "reference": "52e14e8b59d43fd5c154c6cb4a5d267d32969bc6"
+                "reference": "428cb320ef9295b3d5598f08d5efe918f4d0b2af"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -675,7 +676,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "a51e2a07dabe6af10a88f3ee4e44f93cc434bf26"
+                "reference": "594e6f6c880088ea43c043e092383b3bc0c13b3e"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
@@ -888,16 +889,16 @@
         },
         {
             "name": "bower-asset/blueimp-load-image",
-            "version": "v2.20.1",
+            "version": "v2.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blueimp/JavaScript-Load-Image.git",
-                "reference": "e19f53104dfb1ec19be33455e45bca959561067b"
+                "reference": "e9a4fc2f0e8019ded69178c5b74d090cc6d8051c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blueimp/JavaScript-Load-Image/zipball/e19f53104dfb1ec19be33455e45bca959561067b",
-                "reference": "e19f53104dfb1ec19be33455e45bca959561067b",
+                "url": "https://api.github.com/repos/blueimp/JavaScript-Load-Image/zipball/e9a4fc2f0e8019ded69178c5b74d090cc6d8051c",
+                "reference": "e9a4fc2f0e8019ded69178c5b74d090cc6d8051c",
                 "shasum": ""
             },
             "type": "bower-asset-library"
@@ -1899,50 +1900,6 @@
                 "yii2"
             ],
             "time": "2014-06-16T06:21:37+00:00"
-        },
-        {
-            "name": "juratitov/yii2-morrisjs-widget",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/juratitov/yii2-morrisjs-widget.git",
-                "reference": "8d41fca23578b5ae91f41af3fde68a3c6dca18c4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/juratitov/yii2-morrisjs-widget/zipball/8d41fca23578b5ae91f41af3fde68a3c6dca18c4",
-                "reference": "8d41fca23578b5ae91f41af3fde68a3c6dca18c4",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "juratitov\\morrisjs\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Jura Titov",
-                    "email": "jura.spica@gmail.com"
-                }
-            ],
-            "description": "Morris.js charts widget for Yii2.",
-            "homepage": "https://github.com/juratitov/yii2-morrisjs-widget",
-            "keywords": [
-                "Morris.js",
-                "chart",
-                "extension",
-                "widget",
-                "yii"
-            ],
-            "time": "2015-04-03T12:43:32+00:00"
         },
         {
             "name": "kartik-v/yii2-field-range",
@@ -3421,8 +3378,7 @@
         "artsoft/yii2-art-media": 20,
         "artsoft/yii2-art-core": 20,
         "artsoft/yii2-art-generator": 20,
-        "artsoft/art-i18n": 20,
-        "juratitov/yii2-morrisjs-widget": 20
+        "artsoft/art-i18n": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
