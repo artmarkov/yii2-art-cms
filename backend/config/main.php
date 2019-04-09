@@ -101,6 +101,7 @@ return [
                 //'<controller:(test)>/<action:[\w_\-]+>/<id:\d+>' => '<controller>/<action>',
                 //'<controller:(test)>/<action:[\w_\-]+>' => '<controller>/<action>',
                 //art cms and other modules routes
+                '/' => 'site/index',
                 '<module:[\w_\-]+>/' => '<module>/default/index',
                 '<module:[\w_\-]+>/<action:[\w_\-]+>/<id:\d+>' => '<module>/default/<action>',
                 '<module:[\w_\-]+>/<action:(create)>' => '<module>/default/<action>',
