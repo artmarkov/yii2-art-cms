@@ -84,7 +84,8 @@ return [
         'assetManager' => [
             'bundles' => [
                 'yii\bootstrap\BootstrapAsset' => [
-                    'sourcePath' => '@artsoft/yii2-art-core/assets/theme/bootswatch/custom',
+                   // 'sourcePath' => '@artsoft/yii2-art-core/assets/theme/bootswatch/custom',
+                    'sourcePath' => '@artsoft/yii2-art-core/assets/theme/bootstrap/dist/css',
                     'css' => ['bootstrap.css']
                 ],
             ],
