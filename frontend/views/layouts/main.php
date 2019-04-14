@@ -62,7 +62,11 @@ ThemeAsset::register($this);
         'items' => $menuItems,
     ]);
 
-    echo LanguageSelector::widget(['display' => 'label', 'view' => 'pills']);
+    echo LanguageSelector::widget([
+        'display' => 'label', 
+        'flag_visible' => true, 
+        'options' => ['class' => 'navbar-nav navbar-left']
+    ]);
 
     NavBar::end();
     ?>

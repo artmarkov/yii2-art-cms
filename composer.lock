@@ -276,7 +276,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "e9a99a51fb5f511e6d6ad32e0339829b7bea1575"
+                "reference": "02c5bb7e6b6a1ce75a7f19b24bde536c53701006"
             },
             "type": "library",
             "autoload": {
@@ -372,14 +372,16 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "80b009ec58abafe04de9bf7e935a6aa880931a52"
+                "reference": "0beaf61cd13d3eed239a272e2e76e6018e293440"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
                 "2amigos/yii2-transliterator-helper": "*",
                 "antishov/yii2-morrisjs": "^1.1",
                 "artsoft/yii2-date-range-picker": "*",
+                "asinfotrack/yii2-flagicons": "^1.1",
                 "bower-asset/metismenu": "*",
+                "cetver/yii2-language-selector": "^1.0",
                 "himiklab/yii2-sortable-grid-view-widget": "*",
                 "kartik-v/yii2-field-range": "dev-master",
                 "kartik-v/yii2-widget-datepicker": "@dev",
@@ -547,7 +549,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-post",
-                "reference": "b7f5767be1c6c28a7040dc38c57202facc975f73"
+                "reference": "961107162dd4a4b44970b890c0b22c82b656e7c5"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -676,7 +678,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "594e6f6c880088ea43c043e092383b3bc0c13b3e"
+                "reference": "3ef4e109dd03c662c3ebe18d329b631beed48873"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
@@ -763,6 +765,53 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "dangrossman daterangepicker yii 2 gridview",
             "time": "2019-03-29T14:19:42+00:00"
+        },
+        {
+            "name": "asinfotrack/yii2-flagicons",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asinfotrack/yii2-flagicons.git",
+                "reference": "e54769c0191e19ca7c20ebd2e8bc97c9f3ac3e92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asinfotrack/yii2-flagicons/zipball/e54769c0191e19ca7c20ebd2e8bc97c9f3ac3e92",
+                "reference": "e54769c0191e19ca7c20ebd2e8bc97c9f3ac3e92",
+                "shasum": ""
+            },
+            "require": {
+                "components/flag-icon-css": "2.6.0",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "2.0.*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "asinfotrack\\yii2\\flagicons\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Mueller",
+                    "email": "pascal.mueller@asinfotrack.ch",
+                    "homepage": "http://www.asinfotrack.ch"
+                }
+            ],
+            "description": "Yii2-flagicons is a Yii2-wrapper around the flag-icon-css-project. With this extension you can easily use vector-based country flags in your Yii2-project.",
+            "keywords": [
+                "bundle",
+                "flag",
+                "icons",
+                "vector",
+                "widget",
+                "yii2"
+            ],
+            "time": "2016-10-17T09:49:01+00:00"
         },
         {
             "name": "bower-asset/animate.css",
@@ -1203,16 +1252,16 @@
         },
         {
             "name": "bower-asset/jquery-timeago",
-            "version": "v1.6.5",
+            "version": "v1.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmm5t/jquery-timeago.git",
-                "reference": "2ea30c143a9fd3a77dda4c4a9156dfdb9cc858bb"
+                "reference": "e13ad6d21cfb8a5c0a04a6273d67e71edf27339c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/2ea30c143a9fd3a77dda4c4a9156dfdb9cc858bb",
-                "reference": "2ea30c143a9fd3a77dda4c4a9156dfdb9cc858bb",
+                "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/e13ad6d21cfb8a5c0a04a6273d67e71edf27339c",
+                "reference": "e13ad6d21cfb8a5c0a04a6273d67e71edf27339c",
                 "shasum": ""
             },
             "require": {
@@ -1229,7 +1278,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-02-24T19:46:29+00:00"
+            "time": "2019-04-12T15:59:29+00:00"
         },
         {
             "name": "bower-asset/jquery-ui",
@@ -1552,6 +1601,62 @@
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
+            "name": "cetver/yii2-language-selector",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cetver/yii2-language-selector.git",
+                "reference": "d4c4af50bb4df43f781e7d6b9ed649f0bb42e9cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cetver/yii2-language-selector/zipball/d4c4af50bb4df43f781e7d6b9ed649f0bb42e9cd",
+                "reference": "d4c4af50bb4df43f781e7d6b9ed649f0bb42e9cd",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "^2.0.13"
+            },
+            "require-dev": {
+                "codeception/base": "^2.2.3",
+                "codeception/specify": "~0.4.3",
+                "codeception/verify": "~0.3.1",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "cetver\\LanguageSelector\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Cetvertacov",
+                    "email": "cetver@gmail.com"
+                }
+            ],
+            "description": "Provides the configuration for the language selector for the Yii framework 2.0",
+            "keywords": [
+                "change",
+                "extension",
+                "i18n",
+                "internationalization",
+                "language",
+                "locale",
+                "pick",
+                "select",
+                "switch",
+                "toggle",
+                "url",
+                "yii2"
+            ],
+            "time": "2018-01-13T13:08:02+00:00"
+        },
+        {
             "name": "cjtterabytesoft/yii2-jvectormap",
             "version": "dev-master",
             "source": {
@@ -1603,6 +1708,44 @@
                 "yii2"
             ],
             "time": "2018-04-23T11:59:32+00:00"
+        },
+        {
+            "name": "components/flag-icon-css",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipis/flag-icon-css.git",
+                "reference": "8a8b0eb53106d9d49c800d6abe106ba0ffd7604f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/8a8b0eb53106d9d49c800d6abe106ba0ffd7604f",
+                "reference": "8a8b0eb53106d9d49c800d6abe106ba0ffd7604f",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "flag-icon-css",
+                    "files": [
+                        "less/**",
+                        "css/**",
+                        "flags/**"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Panayiotis Lipiridis (Lipis)",
+                    "email": "lipiridis@gmail.com"
+                }
+            ],
+            "description": "CSS for vector based country flags",
+            "time": "2016-10-03T14:43:33+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
