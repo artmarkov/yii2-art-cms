@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "0beaf61cd13d3eed239a272e2e76e6018e293440"
+                "reference": "04e5a2ac59c0b38acc1b37d09c13b950924873c0"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -381,7 +381,6 @@
                 "artsoft/yii2-date-range-picker": "*",
                 "asinfotrack/yii2-flagicons": "^1.1",
                 "bower-asset/metismenu": "*",
-                "cetver/yii2-language-selector": "^1.0",
                 "himiklab/yii2-sortable-grid-view-widget": "*",
                 "kartik-v/yii2-field-range": "dev-master",
                 "kartik-v/yii2-widget-datepicker": "@dev",
@@ -714,7 +713,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-comments",
-                "reference": "d597e706714dba94623c32579938e48d3f177512"
+                "reference": "ec2ae88141170382a847d24b025bea6143e3c49b"
             },
             "require": {
                 "tijsverkoyen/akismet": "^1.1",
@@ -1599,62 +1598,6 @@
                 "markdown-extra"
             ],
             "time": "2018-03-26T11:24:36+00:00"
-        },
-        {
-            "name": "cetver/yii2-language-selector",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cetver/yii2-language-selector.git",
-                "reference": "d4c4af50bb4df43f781e7d6b9ed649f0bb42e9cd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cetver/yii2-language-selector/zipball/d4c4af50bb4df43f781e7d6b9ed649f0bb42e9cd",
-                "reference": "d4c4af50bb4df43f781e7d6b9ed649f0bb42e9cd",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "^2.0.13"
-            },
-            "require-dev": {
-                "codeception/base": "^2.2.3",
-                "codeception/specify": "~0.4.3",
-                "codeception/verify": "~0.3.1",
-                "satooshi/php-coveralls": "^1.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "cetver\\LanguageSelector\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Alexandr Cetvertacov",
-                    "email": "cetver@gmail.com"
-                }
-            ],
-            "description": "Provides the configuration for the language selector for the Yii framework 2.0",
-            "keywords": [
-                "change",
-                "extension",
-                "i18n",
-                "internationalization",
-                "language",
-                "locale",
-                "pick",
-                "select",
-                "switch",
-                "toggle",
-                "url",
-                "yii2"
-            ],
-            "time": "2018-01-13T13:08:02+00:00"
         },
         {
             "name": "cjtterabytesoft/yii2-jvectormap",
