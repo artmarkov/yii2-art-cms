@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "2amigos/yii2-chartjs-widget",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/2amigos/yii2-chartjs-widget.git",
-                "reference": "a5246d9bb491ef4ff82915dccc6980ed17ed0873"
+                "reference": "b144a4ebd923872a7263c980f8afe2e212378275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/2amigos/yii2-chartjs-widget/zipball/a5246d9bb491ef4ff82915dccc6980ed17ed0873",
-                "reference": "a5246d9bb491ef4ff82915dccc6980ed17ed0873",
+                "url": "https://api.github.com/repos/2amigos/yii2-chartjs-widget/zipball/b144a4ebd923872a7263c980f8afe2e212378275",
+                "reference": "b144a4ebd923872a7263c980f8afe2e212378275",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "yii 2",
                 "yii2"
             ],
-            "time": "2017-07-26T09:24:16+00:00"
+            "time": "2018-05-02T17:59:16+00:00"
         },
         {
             "name": "2amigos/yii2-file-upload-widget",
@@ -276,7 +276,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "02c5bb7e6b6a1ce75a7f19b24bde536c53701006"
+                "reference": "83b8fabfef37896e37567ca931df19262881353f"
             },
             "type": "library",
             "autoload": {
@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "6aecb6d0442cbb0403ef2d4438a49d24d29d2def"
+                "reference": "ba55a254ad98122e9610d42d22336c22bdc12d57"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -448,7 +448,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-media",
-                "reference": "7bd01f8d6f6ba15aaace69113c607dcf20d64406"
+                "reference": "8669be7df13f9dc0500315547a2459162329ed7f"
             },
             "require": {
                 "2amigos/yii2-file-upload-widget": "~1.0.6",
@@ -483,7 +483,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-mediamanager",
-                "reference": "923f8a90b193750850d026081ff70a4790a74a97"
+                "reference": "4e4c96199301233f7c73deaa84fe10cd05473344"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -578,7 +578,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-post",
-                "reference": "961107162dd4a4b44970b890c0b22c82b656e7c5"
+                "reference": "400f97c812a3668a56acdaaaf4d7f39939a5e8b3"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -743,7 +743,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-comments",
-                "reference": "d597e706714dba94623c32579938e48d3f177512"
+                "reference": "ec2ae88141170382a847d24b025bea6143e3c49b"
             },
             "require": {
                 "tijsverkoyen/akismet": "^1.1",
@@ -936,16 +936,16 @@
         },
         {
             "name": "bower-asset/blueimp-file-upload",
-            "version": "v9.28.0",
+            "version": "v9.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blueimp/jQuery-File-Upload.git",
-                "reference": "ee54fc3f57418edc6c86532cfe124a9e2c70deed"
+                "reference": "818f9762b955278ddb6dc2e007ef4322175a3b1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/ee54fc3f57418edc6c86532cfe124a9e2c70deed",
-                "reference": "ee54fc3f57418edc6c86532cfe124a9e2c70deed",
+                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/818f9762b955278ddb6dc2e007ef4322175a3b1b",
+                "reference": "818f9762b955278ddb6dc2e007ef4322175a3b1b",
                 "shasum": ""
             },
             "require": {
@@ -996,7 +996,7 @@
                 "upload",
                 "widget"
             ],
-            "time": "2018-11-12T17:45:10+00:00"
+            "time": "2019-04-16T10:02:31+00:00"
         },
         {
             "name": "bower-asset/blueimp-gallery",
@@ -3140,20 +3140,23 @@
         },
         {
             "name": "yiisoft/yii2-httpclient",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-httpclient.git",
-                "reference": "360b0f9c0855709b3370d486a4de435022fb3926"
+                "reference": "4a41e008aa571bce690e4a992dedb61275d31a35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/360b0f9c0855709b3370d486a4de435022fb3926",
-                "reference": "360b0f9c0855709b3370d486a4de435022fb3926",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/4a41e008aa571bce690e4a992dedb61275d31a35",
+                "reference": "4a41e008aa571bce690e4a992dedb61275d31a35",
                 "shasum": ""
             },
             "require": {
                 "yiisoft/yii2": "~2.0.13"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.27|~5.7.21|^6.2"
             },
             "type": "yii2-extension",
             "extra": {
@@ -3183,7 +3186,7 @@
                 "httpclient",
                 "yii2"
             ],
-            "time": "2018-09-23T21:53:35+00:00"
+            "time": "2019-04-16T12:34:40+00:00"
         },
         {
             "name": "yiisoft/yii2-imagine",
