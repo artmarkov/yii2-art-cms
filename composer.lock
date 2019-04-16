@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8d6e09c3201cd20c9c619c3ea409495",
+    "content-hash": "b5be02218bec65c2be80b74d57d359c4",
     "packages": [
         {
             "name": "2amigos/yii2-chartjs-widget",
@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "04e5a2ac59c0b38acc1b37d09c13b950924873c0"
+                "reference": "6aecb6d0442cbb0403ef2d4438a49d24d29d2def"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -476,6 +476,36 @@
                 }
             ],
             "description": "Media Module For Art CMS"
+        },
+        {
+            "name": "artsoft/yii2-art-mediamanager",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../artsoft/yii2-art-mediamanager",
+                "reference": "923f8a90b193750850d026081ff70a4790a74a97"
+            },
+            "require": {
+                "artsoft/yii2-art-core": "dev-master",
+                "artsoft/yii2-art-media": "dev-master",
+                "kartik-v/yii2-sortable-input": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "artsoft\\mediamanager\\": ""
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Artur Markov",
+                    "email": "artmarkov@mail.ru"
+                }
+            ],
+            "description": "Mediamanager Module For Art CMS"
         },
         {
             "name": "artsoft/yii2-art-menu",
@@ -713,7 +743,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-comments",
-                "reference": "ec2ae88141170382a847d24b025bea6143e3c49b"
+                "reference": "d597e706714dba94623c32579938e48d3f177512"
             },
             "require": {
                 "tijsverkoyen/akismet": "^1.1",
@@ -811,6 +841,55 @@
                 "yii2"
             ],
             "time": "2016-10-17T09:49:01+00:00"
+        },
+        {
+            "name": "bizley/migration",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bizley/yii2-migration.git",
+                "reference": "582954323ae30ee784fbbd31cbffa0b64c898aff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bizley/yii2-migration/zipball/582954323ae30ee784fbbd31cbffa0b64c898aff",
+                "reference": "582954323ae30ee784fbbd31cbffa0b64c898aff",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": ">=2.0.15.1 <2.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.3",
+                "roave/security-advisories": "dev-master"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bizley\\migration\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pawel Bizley Brzozowski",
+                    "email": "pawel@positive.codes"
+                }
+            ],
+            "description": "Migration generator for Yii 2.",
+            "keywords": [
+                "console",
+                "generator",
+                "migrate",
+                "migration",
+                "yii2"
+            ],
+            "time": "2019-04-06T18:31:51+00:00"
         },
         {
             "name": "bower-asset/animate.css",
@@ -2149,6 +2228,111 @@
             "time": "2019-03-13T17:14:54+00:00"
         },
         {
+            "name": "kartik-v/yii2-sortable",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-sortable.git",
+                "reference": "a6f9a9adb873d6345de92bbe5e436ac1a1db30bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-sortable/zipball/a6f9a9adb873d6345de92bbe5e436ac1a1db30bc",
+                "reference": "a6f9a9adb873d6345de92bbe5e436ac1a1db30bc",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-krajee-base": ">=2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\sortable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Create sortable lists and grids using HTML5 drag and drop API for Yii 2.0.",
+            "homepage": "https://github.com/kartik-v/yii2-sortable",
+            "keywords": [
+                "bootstrap",
+                "extension",
+                "jquery",
+                "range",
+                "sortable",
+                "widget",
+                "yii2"
+            ],
+            "time": "2018-10-09T13:25:05+00:00"
+        },
+        {
+            "name": "kartik-v/yii2-sortable-input",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-sortable-input.git",
+                "reference": "9b49072e5c5c83e74fbaa8f9d6928fd26cad375c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-sortable-input/zipball/9b49072e5c5c83e74fbaa8f9d6928fd26cad375c",
+                "reference": "9b49072e5c5c83e74fbaa8f9d6928fd26cad375c",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-sortable": "~1.2"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\sortinput\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Sortable input widget based on yii2-sortable extension.",
+            "homepage": "https://github.com/kartik-v/yii2-sortable-input",
+            "keywords": [
+                "bootstrap",
+                "extension",
+                "input",
+                "jquery",
+                "range",
+                "sortable",
+                "widget",
+                "yii2"
+            ],
+            "time": "2018-11-05T12:36:39+00:00"
+        },
+        {
             "name": "kartik-v/yii2-widget-activeform",
             "version": "v1.5.8",
             "source": {
@@ -3464,7 +3648,8 @@
         "artsoft/yii2-art-media": 20,
         "artsoft/yii2-art-core": 20,
         "artsoft/yii2-art-generator": 20,
-        "artsoft/art-i18n": 20
+        "artsoft/art-i18n": 20,
+        "artsoft/yii2-art-mediamanager": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

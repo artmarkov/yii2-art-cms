@@ -75,6 +75,9 @@ return [
         ],
         'comment' => [
             'class' => 'artsoft\comment\CommentModule',
+        ],        
+        'mediamanager' => [
+            'class' => 'artsoft\mediamanager\MediamanagerModule',
         ],
     ],
     'components' => [

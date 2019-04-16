@@ -30,6 +30,7 @@
     "yiisoft/yii2": "~2.0.13",
     "yiisoft/yii2-bootstrap": "~2.0.6",
     "yiisoft/yii2-swiftmailer": "~2.0.6",
+    "bizley/migration": "^3.1",
     "artsoft/yii2-art-seo": "dev-master",
     "artsoft/yii2-art-settings": "dev-master",
     "artsoft/yii2-art-translation": "dev-master",
@@ -43,7 +44,8 @@
     "artsoft/yii2-art-media": "dev-master",
     "artsoft/yii2-art-core": "dev-master",
     "artsoft/yii2-art-generator": "dev-master",
-    "artsoft/art-i18n": "dev-master"   
+    "artsoft/art-i18n": "dev-master",
+    "artsoft/yii2-art-mediamanager": "dev-master"   
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "~2.0.5",
@@ -119,6 +121,10 @@
         {
             "type": "path",
             "url": "../artsoft/art-i18n"
-        }
+        },
+         {
+            "type": "path",
+            "url": "../artsoft/yii2-art-mediamanager"
+        }        
 ]
 }
