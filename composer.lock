@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "ba55a254ad98122e9610d42d22336c22bdc12d57"
+                "reference": "c6a8750751456b5682ae50de028070db2bdb4277"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -483,7 +483,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-mediamanager",
-                "reference": "4e4c96199301233f7c73deaa84fe10cd05473344"
+                "reference": "8fd352e760b3cc058c42ea9442c580e94c688a53"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -545,7 +545,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-page",
-                "reference": "cddc8c08ce57f3555b3bf83d307f708a5318042b"
+                "reference": "4d3ac247b43a75e7c26f9197a1e4a38ae40e7a55"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -611,7 +611,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-seo",
-                "reference": "0c4f35f36a07e3e252c2a462dff2510ae6418054"
+                "reference": "c8878949fd6981c348f891dff8a9cdfb0834e6ae"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -707,7 +707,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "3ef4e109dd03c662c3ebe18d329b631beed48873"
+                "reference": "afe86420241d3696a9fe2e7290e706547bf6a638"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
