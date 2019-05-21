@@ -24,7 +24,7 @@ class SiteController extends \artsoft\controllers\BaseController
     {
         return [
             'error' => [
-                'class' => 'yii\web\ErrorAction',
+                'class' => 'artsoft\web\ErrorAction',
             ],
             'captcha' => [
                 'class' => 'yii\captcha\CaptchaAction',

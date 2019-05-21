@@ -276,7 +276,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/art-i18n",
-                "reference": "83b8fabfef37896e37567ca931df19262881353f"
+                "reference": "82bacffd63010d3def7fd6f8bd3fed827c33151a"
             },
             "type": "library",
             "autoload": {
@@ -305,7 +305,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-auth",
-                "reference": "f96b6aa716aa08f9d6174b2b0c794da17aeba032"
+                "reference": "3932f8be65c2256d9236ea1a2e4bf59a08dd1b43"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "c6a8750751456b5682ae50de028070db2bdb4277"
+                "reference": "a83863b32fad1f81cbd3f61602007f32fd3bdf0b"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",
@@ -448,7 +448,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-media",
-                "reference": "8669be7df13f9dc0500315547a2459162329ed7f"
+                "reference": "b64e3cffa74d1cff3ff02bf47bc95e557e0e4021"
             },
             "require": {
                 "2amigos/yii2-file-upload-widget": "~1.0.6",
@@ -483,7 +483,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-mediamanager",
-                "reference": "8fd352e760b3cc058c42ea9442c580e94c688a53"
+                "reference": "4e9779ad16873f82ec5034e146798bf2b336fb55"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master",
@@ -611,7 +611,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-seo",
-                "reference": "c8878949fd6981c348f891dff8a9cdfb0834e6ae"
+                "reference": "b2aa24cb4d65eba710b13fff643410d25726e399"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -643,7 +643,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-settings",
-                "reference": "a7c3b15bdabbf24bb8f7e5166a09d6317c10adf6"
+                "reference": "b4ad2481f6d0e8313df8c7992c23c0fae975be66"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -675,7 +675,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-translation",
-                "reference": "428cb320ef9295b3d5598f08d5efe918f4d0b2af"
+                "reference": "32803b02ecb521b2305d78cc0599f9979a02b78c"
             },
             "require": {
                 "artsoft/yii2-art-core": "dev-master"
@@ -707,7 +707,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-user",
-                "reference": "afe86420241d3696a9fe2e7290e706547bf6a638"
+                "reference": "6f45f2403c800a7f3b53257a59886433e15a7a9d"
             },
             "require": {
                 "artsoft/yii2-art-auth": "dev-master",
@@ -844,16 +844,16 @@
         },
         {
             "name": "bizley/migration",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bizley/yii2-migration.git",
-                "reference": "582954323ae30ee784fbbd31cbffa0b64c898aff"
+                "reference": "881d9a790a137a0e1aa7b0bb40c71ebc9bdab83f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bizley/yii2-migration/zipball/582954323ae30ee784fbbd31cbffa0b64c898aff",
-                "reference": "582954323ae30ee784fbbd31cbffa0b64c898aff",
+                "url": "https://api.github.com/repos/bizley/yii2-migration/zipball/881d9a790a137a0e1aa7b0bb40c71ebc9bdab83f",
+                "reference": "881d9a790a137a0e1aa7b0bb40c71ebc9bdab83f",
                 "shasum": ""
             },
             "require": {
@@ -889,7 +889,7 @@
                 "migration",
                 "yii2"
             ],
-            "time": "2019-04-06T18:31:51+00:00"
+            "time": "2019-04-25T20:56:11+00:00"
         },
         {
             "name": "bower-asset/animate.css",
@@ -936,16 +936,16 @@
         },
         {
             "name": "bower-asset/blueimp-file-upload",
-            "version": "v9.29.0",
+            "version": "v9.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blueimp/jQuery-File-Upload.git",
-                "reference": "818f9762b955278ddb6dc2e007ef4322175a3b1b"
+                "reference": "4586771d65482dc9678c7e48d245a1501bf96ff5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/818f9762b955278ddb6dc2e007ef4322175a3b1b",
-                "reference": "818f9762b955278ddb6dc2e007ef4322175a3b1b",
+                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/4586771d65482dc9678c7e48d245a1501bf96ff5",
+                "reference": "4586771d65482dc9678c7e48d245a1501bf96ff5",
                 "shasum": ""
             },
             "require": {
@@ -996,7 +996,7 @@
                 "upload",
                 "widget"
             ],
-            "time": "2019-04-16T10:02:31+00:00"
+            "time": "2019-04-19T19:29:14+00:00"
         },
         {
             "name": "bower-asset/blueimp-gallery",
@@ -1330,16 +1330,16 @@
         },
         {
             "name": "bower-asset/jquery-timeago",
-            "version": "v1.6.6",
+            "version": "v1.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmm5t/jquery-timeago.git",
-                "reference": "e13ad6d21cfb8a5c0a04a6273d67e71edf27339c"
+                "reference": "48fdda3ca724dcd655e8e990f6d7fbd203718905"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/e13ad6d21cfb8a5c0a04a6273d67e71edf27339c",
-                "reference": "e13ad6d21cfb8a5c0a04a6273d67e71edf27339c",
+                "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/48fdda3ca724dcd655e8e990f6d7fbd203718905",
+                "reference": "48fdda3ca724dcd655e8e990f6d7fbd203718905",
                 "shasum": ""
             },
             "require": {
@@ -1356,7 +1356,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-04-12T15:59:29+00:00"
+            "time": "2019-04-23T15:55:20+00:00"
         },
         {
             "name": "bower-asset/jquery-ui",
@@ -2874,16 +2874,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.17",
+            "version": "2.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "b56159228c3b4990e38cf41ddd69af27ab015bea"
+                "reference": "be563f0211bd5d4424680d0fcdef578090f08e41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b56159228c3b4990e38cf41ddd69af27ab015bea",
-                "reference": "b56159228c3b4990e38cf41ddd69af27ab015bea",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/be563f0211bd5d4424680d0fcdef578090f08e41",
+                "reference": "be563f0211bd5d4424680d0fcdef578090f08e41",
                 "shasum": ""
             },
             "require": {
@@ -2970,7 +2970,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2019-03-22T21:26:26+00:00"
+            "time": "2019-04-23T12:48:26+00:00"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -3026,21 +3026,24 @@
         },
         {
             "name": "yiisoft/yii2-bootstrap",
-            "version": "2.0.9",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "4677951dda712dd99d5bf2a127eaee118dfea860"
+                "reference": "073c9ab0a4eb71f2485d84c96a1967130300d8fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/4677951dda712dd99d5bf2a127eaee118dfea860",
-                "reference": "4677951dda712dd99d5bf2a127eaee118dfea860",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/073c9ab0a4eb71f2485d84c96a1967130300d8fc",
+                "reference": "073c9ab0a4eb71f2485d84c96a1967130300d8fc",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/bootstrap": "3.4.* | 3.3.* | 3.2.* | 3.1.*",
                 "yiisoft/yii2": "~2.0.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<7"
             },
             "type": "yii2-extension",
             "extra": {
@@ -3082,7 +3085,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2019-01-29T21:39:45+00:00"
+            "time": "2019-04-23T13:18:43+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -3140,16 +3143,16 @@
         },
         {
             "name": "yiisoft/yii2-httpclient",
-            "version": "2.0.8",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-httpclient.git",
-                "reference": "4a41e008aa571bce690e4a992dedb61275d31a35"
+                "reference": "cf532447447216bd8cb167689ac18f4e7dc1c1a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/4a41e008aa571bce690e4a992dedb61275d31a35",
-                "reference": "4a41e008aa571bce690e4a992dedb61275d31a35",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/cf532447447216bd8cb167689ac18f4e7dc1c1a7",
+                "reference": "cf532447447216bd8cb167689ac18f4e7dc1c1a7",
                 "shasum": ""
             },
             "require": {
@@ -3186,7 +3189,7 @@
                 "httpclient",
                 "yii2"
             ],
-            "time": "2019-04-16T12:34:40+00:00"
+            "time": "2019-05-14T13:33:37+00:00"
         },
         {
             "name": "yiisoft/yii2-imagine",
