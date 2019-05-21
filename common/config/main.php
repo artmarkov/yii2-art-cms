@@ -1,5 +1,6 @@
 <?php
 return [
+    'name' =>  'My Application',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'bootstrap' => ['comments', 'art'],
     'language' => 'en-US',
