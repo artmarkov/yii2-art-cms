@@ -79,6 +79,16 @@ return [
         'mediamanager' => [
             'class' => 'artsoft\mediamanager\MediamanagerModule',
         ],
+        'queuemanager' => [
+            'class' => \ignatenkovnikita\queuemanager\QueueManager::class
+        ],
+        'eav' => [
+        'class' => 'artsoft\eav\EavModule',
+        ],
+//        'mailbox' => [	
+//                'class' => 'hscstudio\mailbox\Module',
+//		//'view' => 'hscstudio/mailbox/views/default',			
+//	],
     ],
     'components' => [
         'request' => [
@@ -125,6 +135,12 @@ return [
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
+        ],
+        'queue' => [
+            'class' => \yii\queue\redis\Queue::class,
+            'as log' => \yii\queue\LogBehavior::class,
+            'as quuemanager' => \ignatenkovnikita\queuemanager\behaviors\QueueManagerBehavior::class
+            // Other driver options
         ],
     ],
     'params' => $params,
