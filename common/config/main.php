@@ -35,6 +35,8 @@ return [
             'as quuemanager' => \ignatenkovnikita\queuemanager\behaviors\QueueManagerBehavior::class
             // Other driver options
         ],
+        'db' => require __DIR__ . '/db.php',
+        'mailer' => require __DIR__ . '/mailer.php',
     ],
     'modules' => [
         'comments' => [

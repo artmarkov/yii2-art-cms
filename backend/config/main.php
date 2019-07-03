@@ -32,12 +32,10 @@ Yii::$container->set(\kartik\datetime\DateTimePicker::class, [
 
 $params = array_merge(
     require(__DIR__ . '/../../common/config/params.php'),
-    require(__DIR__ . '/../../common/config/params-local.php'),
-    require(__DIR__ . '/params.php'),
-    require(__DIR__ . '/params-local.php')
+    require(__DIR__ . '/params.php')
 );
 
-return [
+$config =  [
     'id' => 'backend',
     'homeUrl' => '/admin',
     'basePath' => dirname(__DIR__),
@@ -92,6 +90,8 @@ return [
     ],
     'components' => [
         'request' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => env('BACKEND_COOKIE_VALIDATION_KEY'),
             'baseUrl' => '/admin',
         ],
         'assetManager' => [
@@ -145,3 +145,18 @@ return [
     ],
     'params' => $params,
 ];
+
+if (YII_ENV_DEV) {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
+        'class' => 'yii\debug\Module',
+    ];
+
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+    ];
+}
+
+return $config;

@@ -372,7 +372,7 @@
             "dist": {
                 "type": "path",
                 "url": "../artsoft/yii2-art-core",
-                "reference": "04acaafff2be39f9189d1469afebb620d0398497"
+                "reference": "33144c41715d3022687ff4a7ca17664a1ed599b4"
             },
             "require": {
                 "2amigos/yii2-chartjs-widget": "~2.0",

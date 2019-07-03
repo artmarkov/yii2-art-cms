@@ -46,9 +46,7 @@
     "artsoft/yii2-art-core": "dev-master",
     "artsoft/yii2-art-generator": "dev-master",
     "artsoft/art-i18n": "dev-master",
-    "artsoft/yii2-art-mediamanager": "dev-master",
-    "artsoft/yii2-art-eav": "dev-master",
-    "ignatenkovnikita/yii2-queuemanager": "*"
+    "artsoft/yii2-art-mediamanager": "dev-master"
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "~2.0.5",

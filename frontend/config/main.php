@@ -1,12 +1,10 @@
 <?php
 $params = array_merge(
-    require(__DIR__ . '/../../common/config/params.php'), 
-    require(__DIR__ . '/../../common/config/params-local.php'), 
-    require(__DIR__ . '/params.php'), 
-    require(__DIR__ . '/params-local.php')
+    require(__DIR__ . '/../../common/config/params.php'),  
+    require(__DIR__ . '/params.php')
 );
 
-return [
+$config =  [
     'id' => 'frontend',
     'homeUrl' => '/',
     'basePath' => dirname(__DIR__),
@@ -21,7 +19,7 @@ return [
         'view' => [
             'theme' => [
                 'class' => 'frontend\components\Theme',
-                'theme' => 'readable', //cerulean, cosmo, default, flatly, readable, simplex, united
+                'theme' => env('FRONTEND_THEME'),
             ],
             'as seo' => [
                 'class' => 'artsoft\seo\components\SeoViewBehavior',
@@ -31,6 +29,8 @@ return [
             'class' => 'artsoft\seo\components\Seo',
         ],
         'request' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => env('FRONTEND_COOKIE_VALIDATION_KEY'),
             'baseUrl' => '',
         ],
         'urlManager' => [
@@ -54,9 +54,6 @@ return [
                 'auth/default/oauth',
             ],
         ],
-        'authClientCollection' => [
-            'class' => 'yii\authclient\Collection',
-        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -69,6 +66,21 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'authClientCollection' => require __DIR__ . '/auth.php',
     ],
     'params' => $params,
 ];
+
+if (YII_ENV_DEV) {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
+        'class' => 'yii\debug\Module',
+    ];
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+    ];
+}
+
+return $config;
