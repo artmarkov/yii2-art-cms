@@ -83,6 +83,31 @@ $config =  [
         'eav' => [
         'class' => 'artsoft\eav\EavModule',
         ],
+        'block' => [
+	    'class' => 'artsoft\block\BlockModule',
+	],
+        'carousel' => [
+            'class' => 'artsoft\carousel\CarouselModule',
+        ], 
+        'parallax' => [
+            'class' => 'artsoft\parallax\ParallaxModule',
+        ],
+        'feedback' => [
+            'class' => 'artsoft\feedback\FeedbackModule',
+        ],
+        'slides' => [
+            'class' => 'artsoft\slides\SlidesModule',
+        ],
+        'portfolio' => [
+            'class' => 'artsoft\portfolio\PortfolioModule',
+        ],
+        'dbmanager' => [
+            'class' => 'artsoft\dbmanager\DbmanagerModule',
+            'dumpPath' => '@frontend/web/db/',
+        ],
+        'trip' => [
+            'class' => 'artsoft\trip\TripModule',
+        ],
 //        'mailbox' => [	
 //                'class' => 'hscstudio\mailbox\Module',
 //		//'view' => 'hscstudio/mailbox/views/default',			
