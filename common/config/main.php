@@ -25,16 +25,6 @@ return [
                 \artsoft\models\UserVisitLog::newVisitor($event->identity->id);
             }
         ],
-        'queue' => [
-            'class' => \yii\queue\db\Queue::class,
-            'db' => 'db', // DB connection component or its config
-            'tableName' => '{{%queue}}', // Table name
-            'channel' => 'default', // Queue channel key
-            'mutex' => \yii\mutex\MysqlMutex::class, // Mutex used to sync queries
-            'as log' => \yii\queue\LogBehavior::class,
-            'as quuemanager' => \ignatenkovnikita\queuemanager\behaviors\QueueManagerBehavior::class
-            // Other driver options
-        ],
         'db' => require __DIR__ . '/db.php',
         'mailer' => require __DIR__ . '/mailer.php',
     ],

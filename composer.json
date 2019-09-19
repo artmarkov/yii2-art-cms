@@ -47,14 +47,17 @@
     "artsoft/yii2-art-generator": "dev-master",
     "artsoft/art-i18n": "dev-master",
     "artsoft/yii2-art-mediamanager": "dev-master",
-     "artsoft/yii2-art-portfolio": "dev-master",
+    "artsoft/yii2-art-portfolio": "dev-master",
     "artsoft/yii2-art-block": "dev-master",   
     "artsoft/yii2-art-carousel": "dev-master",
     "artsoft/yii2-art-parallax": "dev-master",
     "artsoft/yii2-art-feedback": "dev-master",
     "artsoft/yii2-art-slides": "dev-master",
-    "artsoft/yii2-art-dbmanager": "dev-master",   
-    "artsoft/yii2-art-trip": "dev-master"   
+    "artsoft/yii2-art-dbmanager": "dev-master",  
+    "artsoft/yii2-art-eav": "dev-master",   
+    "artsoft/yii2-art-mailbox": "dev-master",
+    "artsoft/yii2-art-fileinput": "dev-master"
+    
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "~2.0.5",
@@ -170,6 +173,14 @@
          {
             "type": "path",
             "url": "../artsoft/yii2-art-trip"
-        }        
+        },        
+         {
+            "type": "path",
+            "url": "../artsoft/yii2-art-mailbox"
+        },        
+         {
+            "type": "path",
+            "url": "../artsoft/yii2-art-fileinput"
+        }
 ]
 }

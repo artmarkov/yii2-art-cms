@@ -77,41 +77,17 @@ $config =  [
         'mediamanager' => [
             'class' => 'artsoft\mediamanager\MediamanagerModule',
         ],
-        'queuemanager' => [
-            'class' => \ignatenkovnikita\queuemanager\QueueManager::class
-        ],
-        'eav' => [
-        'class' => 'artsoft\eav\EavModule',
-        ],
         'block' => [
 	    'class' => 'artsoft\block\BlockModule',
 	],
-        'carousel' => [
-            'class' => 'artsoft\carousel\CarouselModule',
-        ], 
-        'parallax' => [
-            'class' => 'artsoft\parallax\ParallaxModule',
-        ],
-        'feedback' => [
-            'class' => 'artsoft\feedback\FeedbackModule',
-        ],
-        'slides' => [
-            'class' => 'artsoft\slides\SlidesModule',
-        ],
-        'portfolio' => [
-            'class' => 'artsoft\portfolio\PortfolioModule',
-        ],
         'dbmanager' => [
             'class' => 'artsoft\dbmanager\DbmanagerModule',
             'dumpPath' => '@frontend/web/db/',
         ],
-        'trip' => [
-            'class' => 'artsoft\trip\TripModule',
-        ],
-//        'mailbox' => [	
-//                'class' => 'hscstudio\mailbox\Module',
-//		//'view' => 'hscstudio/mailbox/views/default',			
-//	],
+        'mailbox' => [	
+            'class' => 'artsoft\mailbox\MailboxModule',
+            'view' => '@artsoft/mailbox/views/default',			
+	],
     ],
     'components' => [
         'request' => [
@@ -160,12 +136,6 @@ $config =  [
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
-        ],
-        'queue' => [
-            'class' => \yii\queue\redis\Queue::class,
-            'as log' => \yii\queue\LogBehavior::class,
-            'as quuemanager' => \ignatenkovnikita\queuemanager\behaviors\QueueManagerBehavior::class
-            // Other driver options
         ],
     ],
     'params' => $params,
