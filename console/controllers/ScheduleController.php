@@ -18,6 +18,8 @@ class ScheduleController extends Controller {
             'file' => __DIR__ . '/test.txt',
         ]));
         Yii::$app->queue->push(new \artsoft\mailbox\jobs\MessageNewEmailJob());
+        Yii::$app->queue->push(new \artsoft\mailbox\jobs\ClianDeletedMailJob());
+        Yii::$app->queue->push(new \artsoft\mailbox\jobs\TrashMailJob());
 
         $queue = Yii::$app->queue;
         $queue->run(false);
