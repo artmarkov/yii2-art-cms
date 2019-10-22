@@ -56,7 +56,9 @@
     "artsoft/yii2-art-dbmanager": "dev-master",  
     "artsoft/yii2-art-eav": "dev-master",   
     "artsoft/yii2-art-mailbox": "dev-master",
-    "artsoft/yii2-art-fileinput": "dev-master"
+    "artsoft/yii2-art-fileinput": "dev-master",
+    "artsoft/yii2-art-queue-schedule": "dev-master",
+    "zhuravljov/yii2-queue-monitor": "~0.1"
     
   },
   "require-dev": {
@@ -180,7 +182,11 @@
         },        
          {
             "type": "path",
-            "url": "../artsoft/yii2-art-fileinput"
+            "url": "../artsoft/yii2-art-fileinput"        
+        },        
+         {
+            "type": "path",
+            "url": "../artsoft/yii2-art-queue-schedule"
         }
 ]
 }

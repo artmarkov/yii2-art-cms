@@ -40,7 +40,7 @@ $config =  [
     'homeUrl' => '/admin',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'monitor'],
     'modules' => [
         'settings' => [
             'class' => 'artsoft\settings\SettingsModule',
@@ -77,19 +77,48 @@ $config =  [
         'mediamanager' => [
             'class' => 'artsoft\mediamanager\MediamanagerModule',
         ],
+        'eav' => [
+        'class' => 'artsoft\eav\EavModule',
+        ],
         'block' => [
 	    'class' => 'artsoft\block\BlockModule',
 	],
+        'carousel' => [
+            'class' => 'artsoft\carousel\CarouselModule',
+        ], 
+        'parallax' => [
+            'class' => 'artsoft\parallax\ParallaxModule',
+        ],
+        'feedback' => [
+            'class' => 'artsoft\feedback\FeedbackModule',
+        ],
+        'slides' => [
+            'class' => 'artsoft\slides\SlidesModule',
+        ],
+        'portfolio' => [
+            'class' => 'artsoft\portfolio\PortfolioModule',
+        ],
         'dbmanager' => [
             'class' => 'artsoft\dbmanager\DbmanagerModule',
             'dumpPath' => '@frontend/web/db/',
         ],
-        'mailbox' => [	
-            'class' => 'artsoft\mailbox\MailboxModule',
-            'view' => '@artsoft/mailbox/views/default',			
+        'trip' => [
+            'class' => 'artsoft\trip\TripModule',
+        ],
+         'fileinput' => [	
+                'class' => 'artsoft\fileinput\FileInputModule',		
 	],
+         'mailbox' => [	
+                'class' => 'artsoft\mailbox\MailboxModule',		
+	],
+         'monitor' => [
+            'class' => \zhuravljov\yii\queue\monitor\Module::class,
+        ],
+        'queue-schedule' => [
+            'class' => 'artsoft\queue\Module',
+        ],
     ],
-    'components' => [
+    'components' => [       
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => env('BACKEND_COOKIE_VALIDATION_KEY'),
@@ -136,6 +165,14 @@ $config =  [
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
+        ],     
+    ],
+     'container' => [
+        'singletons' => [
+            \zhuravljov\yii\queue\monitor\Env::class => [
+                'cache' => 'cache',
+                'db' => 'db',
+            ],
         ],
     ],
     'params' => $params,

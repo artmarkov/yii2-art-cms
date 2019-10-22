@@ -2,7 +2,7 @@
 return [
     'name' =>  'My Application',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-    'bootstrap' => ['comments', 'art'],
+    'bootstrap' => ['comments', 'art' , 'queue'],
     'language' => 'en-US',
     'sourceLanguage' => 'en-US',
     'components' => [
@@ -26,9 +26,21 @@ return [
             }
         ],
         'db' => require __DIR__ . '/db.php',
-        'mailer' => require __DIR__ . '/mailer.php',
+        'mailer' => require __DIR__ . '/mailer.php',        
+        'queue' => [
+            'class' => \yii\queue\db\Queue::class,
+            'db' => 'db', // DB connection component or its config 
+            'ttr' => 5 * 60, // Максимальное время выполнения задания 
+            'attempts' => 3, // Максимальное кол-во попыток
+//            'tableName' => '{{%queue_push}}', // Table name
+//            'channel' => 'default', // Queue channel key
+            'mutex' => \yii\mutex\MysqlMutex::class, // Mutex used to sync queries
+            'as jobMonitor' => \zhuravljov\yii\queue\monitor\JobMonitor::class,
+            'as workerMonitor' => \zhuravljov\yii\queue\monitor\WorkerMonitor::class,
+            'as queueSchedule' => \artsoft\queue\JobSchedule::class,
+        ],  
     ],
-    'modules' => [
+    'modules' => [       
         'comments' => [
             'class' => 'artsoft\comments\Comments',
             'userModel' => 'artsoft\models\User',
@@ -50,7 +62,10 @@ return [
                         'default' => '@vendor/artsoft/yii2-art-generator/crud/art-admin',
                     ]
                 ],
+                'job' => [
+                    'class' => \yii\queue\gii\Generator::class,
+                ],
             ],
         ],
-    ],
+    ],    
 ];

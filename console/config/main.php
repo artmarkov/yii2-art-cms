@@ -11,7 +11,19 @@ return [
     'controllerNamespace' => 'console\controllers',
     'controllerMap' => [
         'migrate' => [
-            'class' => 'console\controllers\MigrateController'
+            'class' => 'console\controllers\MigrateController',
+            'migrationPath' => null,
+            'migrationNamespaces' => [
+//                'zhuravljov\yii\queue\monitor\migrations',
+                'artsoft\queue\migrations',
+            ],
+        ],
+//         'migration' => [
+//            'class' => 'bizley\migration\controllers\MigrationController',
+//        ],
+        'monitor' => [
+            'class' => \zhuravljov\yii\queue\monitor\console\GcController::class,
+            'silent' => false,
         ],
     ],
     'components' => [
@@ -23,14 +35,13 @@ return [
                 ],
             ],
         ],
+        'urlManager' => [
+        'enablePrettyUrl' => true,
+        'scriptUrl' => 'https://artsoft.loc',
+    ],
     ],
     'modules' => [
         'gii' => 'yii\gii\Module',
     ],
-//    'controllerMap' => [
-//        'migration' => [
-//            'class' => 'bizley\migration\controllers\MigrationController',
-//        ],
-//    ],
     'params' => $params,
 ];
