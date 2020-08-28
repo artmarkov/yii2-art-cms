@@ -11,19 +11,7 @@ return [
     'controllerNamespace' => 'console\controllers',
     'controllerMap' => [
         'migrate' => [
-            'class' => 'console\controllers\MigrateController',
-            'migrationPath' => null,
-            'migrationNamespaces' => [
-//                'zhuravljov\yii\queue\monitor\migrations',
-                'artsoft\queue\migrations',
-            ],
-        ],
-//         'migration' => [
-//            'class' => 'bizley\migration\controllers\MigrationController',
-//        ],
-        'monitor' => [
-            'class' => \zhuravljov\yii\queue\monitor\console\GcController::class,
-            'silent' => false,
+            'class' => 'console\controllers\MigrateController'
         ],
     ],
     'components' => [

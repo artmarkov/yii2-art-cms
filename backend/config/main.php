@@ -40,7 +40,7 @@ $config =  [
     'homeUrl' => '/admin',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log', 'monitor'],
+    'bootstrap' => ['log'],
     'modules' => [
         'settings' => [
             'class' => 'artsoft\settings\SettingsModule',
@@ -76,47 +76,7 @@ $config =  [
         ],        
         'mediamanager' => [
             'class' => 'artsoft\mediamanager\MediamanagerModule',
-        ],
-        'eav' => [
-        'class' => 'artsoft\eav\EavModule',
-        ],
-        'block' => [
-	    'class' => 'artsoft\block\BlockModule',
-	],
-        'carousel' => [
-            'class' => 'artsoft\carousel\CarouselModule',
-        ], 
-        'parallax' => [
-            'class' => 'artsoft\parallax\ParallaxModule',
-        ],
-        'feedback' => [
-            'class' => 'artsoft\feedback\FeedbackModule',
-        ],
-        'slides' => [
-            'class' => 'artsoft\slides\SlidesModule',
-        ],
-        'portfolio' => [
-            'class' => 'artsoft\portfolio\PortfolioModule',
-        ],
-        'dbmanager' => [
-            'class' => 'artsoft\dbmanager\DbmanagerModule',
-            'dumpPath' => '@frontend/web/db/',
-        ],
-        'trip' => [
-            'class' => 'artsoft\trip\TripModule',
-        ],
-         'fileinput' => [	
-                'class' => 'artsoft\fileinput\FileInputModule',		
-	],
-         'mailbox' => [	
-                'class' => 'artsoft\mailbox\MailboxModule',		
-	],
-         'monitor' => [
-            'class' => \zhuravljov\yii\queue\monitor\Module::class,
-        ],
-        'queue-schedule' => [
-            'class' => 'artsoft\queue\Module',
-        ],
+        ]
     ],
     'components' => [       
         'request' => [
